@@ -258,13 +258,13 @@ header,
 .overhid {
   overflow-x: hidden;
 }
+.tns-outer {
+  position: relative;
+}
 .tns-nav {
   width: 10px;
-  position: absolute;
-  top: 50%;
-  transform: translateX(-50%);
-  // margin-top: 80px;
-  // float: left;
+  float: left;
+  margin-top: 5.5rem !important;
   &::after {
     content: '';
     display: table;
@@ -315,7 +315,7 @@ header,
   );
 }
 .irs-slider {
-  top: 26px;
+  top: 28px;
   width: 20px;
   height: 20px;
   border: 1px solid #34404b;
@@ -403,4 +403,32 @@ header,
 
 .border-radius-22 {
   border-radius: 22px;
+}
+.quantity {
+  margin: 0px 0px 0px 6px;
+  width: 15px;
+  background-color: transparent;
+  border: none;
+  color: #ff5912;
+}
+#add,
+#subtract {
+  cursor: pointer;
+  font-size: 20px;
+}
+.user-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  transform: translateY(-4px);
+}
+.size input[type='radio'] {
+  display: none;
+}
+.size label {
+  cursor: pointer;
+}
+.size input[type='radio']:checked + label {
+  color: #ff5912;
+  font-style: normal;
 }

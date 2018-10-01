@@ -19,4 +19,19 @@
       .removeClass('collapse')
       .removeAttr('id');
   }
+  $('#add').click(function() {
+    $('#quantity').val(function(n, c) {
+      return parseInt(c) + 1;
+    });
+  });
+  $('#subtract').click(function() {
+    $('#quantity').val(function(n, c) {
+      var val = parseInt(c);
+      if (val > 1) {
+        return val - 1;
+      } else {
+        return 0;
+      }
+    });
+  });
 })();

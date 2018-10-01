@@ -132,18 +132,34 @@
 
                 <div class="col-md-7">
                     <div class="jumbotron bg-transparent overhid text-left">
-                        <h1 class="display-4 color-orange text-uppercase text-left">Full Winter Kit</h1>
-                        <p class="font-size_18 black-color mb-0 text-left">Half Jacket + Skiny Trousers + Boot
+                        <h1 class="display-4 color-orange text-uppercase text-left mobile-text-center">Full Winter Kit</h1>
+                        <p class="font-size_18 black-color mb-0 text-left mobile-text-center">Half Jacket + Skiny
+                            Trousers + Boot
                             leather</p>
-                        <p class="light-dark pt-0 text-left">Lorem ipsum dolor sit amet consectetur
+                        <p class="light-dark pt-0 text-left mobile-text-center">Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Quidem quo ullam minus, fugit nesciunt eius dolorum dolorem natus
                             assumenda sunt illo sequi aperiam.</p>
-                        <div class="clearfix mt-4 pt-4">
-                            <p class=" black-color text-left float-left">Choose size: S - M - <span class="color-orange">L</span>
-                                - Xl</p>
-                            <p class=" black-color text-left float-right mr-3">Choose Quantity: + <span class="color-orange">3</span>
-                                -</p>
+                        <div class="mt-4 pt-4 d-flex flex-row flex-wrap justify-content-between align-content-center">
+                            <div class="black-color text-center d-flex flex-row flex-wrap">
+                                <span class="black-color text-center">Choose size: </span>
+                                <form class="size ml-4">
+                                    <input type="radio" name="size" value="" class="color-orange" id="S" checked>
+                                    <label for="S">S</label>
+                                    <input type="radio" name="size" value="" id="M"> -
+                                    <label for="M"> M </label>
+                                    <input type="radio" name="size" value="" id="L"> -
+                                    <label for="L"> L </label>
+                                    <input type="radio" name="size" value="" id="XL"> -
+                                    <label for="XL"> XL </label>
+                                    <input type="hidden" value="Submit">
+                                </form>
+                            </div>
 
+                            <div class="black-color mr-3 text-center user-select">
+                                <span class="black-color text-center">Choose Quantity </span>
+                                <span id="add" class="ml-4">+</span><input type="text" value="0" disabled class="quantity"
+                                    id="quantity"><span id="subtract">-</span>
+                            </div>
                         </div>
                         <div class="clearfix mt-4 border-top pt-4">
                             <p class="font-size_18 black-color text-left float-left mt-2">Price : 120&#36;</p>
