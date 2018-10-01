@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-Italic.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-BlackIt.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr Semi Bd';
+    src: url('HarmoniaSansProCyr-SemiBdIt.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-SemiBdIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-LightIt.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-Regular.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr Semi Bd';
+    src: url('HarmoniaSansProCyr-SemiBd.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-SemiBd.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr SemiBdCn';
+    src: url('HarmoniaSansProCyr-SemiBdCn.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-SemiBdCn.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-Light.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-BoldIt.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-Bold.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr';
+    src: url('HarmoniaSansProCyr-Black.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr Cond';
+    src: url('HarmoniaSansProCyr-BoldCond.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-BoldCond.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harmonia Sans Pro Cyr Cond';
+    src: url('HarmoniaSansProCyr-Cond.woff2') format('woff2'),
+        url('HarmoniaSansProCyr-Cond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

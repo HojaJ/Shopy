@@ -1,0 +1,50 @@
+@media (max-width: 992px) {
+  .mobile-logo {
+    transform: scale(0.6) translateX(-55px);
+    margin: 0 auto;
+    transition: all ease 0.2s;
+  }
+  .bg-image {
+    height: 100%;
+    background-position: right top;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .mt-mob {
+    margin-top: 15px;
+  }
+  .footer-ul {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-toggle input[type='search'] {
+    padding: 5px 10px 5px 32px;
+    width: 30px;
+  }
+  .search-toggle input[type='search']:focus {
+    width: 130px;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
+  .mobile-text-center {
+    text-align: center;
+  }
+  .custom-btn {
+    width: 80px;
+    height: 40px;
+  }
+}
+.custom-mt {
+  margin-top: 3rem;
+}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
